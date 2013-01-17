@@ -14,6 +14,9 @@ gem "rails", "3.2.11"
 gem "mysql2", group: :mysql
 gem "pg", group: :postgres
 
+#The adapter it wants - you can install an older version of mysql2?
+gem "activerecord-mysql2-adapter"
+
 # Auth
 gem "devise", "~> 2.1.0"
 gem 'omniauth', "~> 1.1.1"
